@@ -1,0 +1,43 @@
+{
+  "name": "buildcrew-pro-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Frontend для BuildCrew Pro SaaS",
+  "author": "BuildCrew Pro Team",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.2.2",
+    "@types/node": "20.8.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.0.0",
+    "tailwindcss": "3.3.0",
+    "autoprefixer": "10.4.16",
+    "postcss": "8.4.31",
+    "axios": "1.5.0",
+    "react-query": "3.39.3",
+    "zustand": "4.4.1",
+    "@hookform/resolvers": "3.3.2",
+    "react-hook-form": "7.47.0",
+    "clsx": "2.0.0",
+    "lucide-react": "0.263.1",
+    "date-fns": "2.30.0",
+    "react-datepicker": "4.25.0",
+    "@headlessui/react": "1.7.17",
+    "react-dropzone": "14.2.3",
+    "react-hot-toast": "2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "8.51.0",
+    "eslint-config-next": "14.0.0"
+  }
+}
